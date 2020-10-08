@@ -45,6 +45,6 @@ cacheSolve <- function(x, ...) {
   inv <- solve(data,...)
   x$setInverse(inv)
   
-  message("calculated inverse")
+  message("calculate inverse")
   inv
 }
